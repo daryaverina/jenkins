@@ -8,10 +8,6 @@ pipeline {
         timestamps()
     }
     stages {
-        stage("First step") {
-            steps {
-            }
-        }
         stage("Second step") {
             steps {
                 echo("2 steeeep")
