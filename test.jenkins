@@ -12,7 +12,7 @@ pipeline {
         stage("first step") {
             steps {
                 echo("1 steeeep")
-                sh 'selenium-side-runner Downloads/test_jenkins.side'
+                'selenium-side-runner Downloads/test_jenkins.side'
             }
         }
     }
