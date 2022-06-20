@@ -9,9 +9,9 @@ pipeline {
         timestamps()
     }
     stages {
-        stage("Second step") {
+        stage("first step") {
             steps {
-                echo("2 steeeep")
+                echo("1 steeeep")
             }
         }
     }
