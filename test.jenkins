@@ -11,8 +11,8 @@ pipeline {
     stages {
         stage("first step") {
             steps {
-                echo("1 steeeep")
-                 bat 'C:/Tests/ex.bat'
+                echo("bat steeeep")
+                bat 'C:/Tests/ex.bat'
             }
         }
     }
