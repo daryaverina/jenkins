@@ -10,6 +10,7 @@ pipeline {
     stages {
         stage("Second step") {
             steps {
+                cd 'C:/'
                 echo("2 steeeep")
             }
         }
