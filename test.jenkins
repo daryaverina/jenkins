@@ -12,7 +12,8 @@ pipeline {
         stage("first step") {
             steps {
                 echo("1 steeeep")
-                sh 'selenium-side-runner C:/Tests/test_jenkins.side'
+                sh 'cd Downloads'
+                sh 'selenium-side-runner test_jenkins.side'
             }
         }
     }
