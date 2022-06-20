@@ -12,7 +12,7 @@ pipeline {
         stage("first step") {
             steps {
                 echo("1 steeeep")
-                 bat 'C:\Tests\ex.bat'
+                 bat 'C:/Tests/ex.bat'
             }
         }
     }
