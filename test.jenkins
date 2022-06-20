@@ -10,7 +10,6 @@ pipeline {
     stages {
         stage("First step") {
             steps {
-                cd C:/Tests
             }
         }
         stage("Second step") {
