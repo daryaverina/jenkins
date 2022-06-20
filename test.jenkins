@@ -17,4 +17,12 @@ pipeline {
             }
         }
     }
+    post {  
+         success {  
+             echo 'This will run only if successful'  
+         }  
+         failure {  
+             emailext attachLog: true, body: 'Hello', subject: 'Error in tests', to: 'dashatech@yandex.ru' 
+         }  
+     }  
 }
