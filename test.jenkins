@@ -13,7 +13,7 @@ pipeline {
             steps {
                 echo("bat steeeep")
                 bat 'C:/Tests/ex.bat'
-                emailext (attachLog: true, body: '', subject: 'Error in tests', to: 'dassadverina@yandex.ru')
+                emailext (attachLog: true, body: '', subject: 'Error in tests', to: 'dashatech@yandex.ru')
             }
         }
     }
