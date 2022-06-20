@@ -10,6 +10,7 @@ pipeline {
     stages {
         stage("First step") {
             steps {
+                cd C:/
                 selenium-side-runner C:/Tests/test_jenkins.side
             }
         }
