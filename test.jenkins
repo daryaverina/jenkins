@@ -12,7 +12,8 @@ pipeline {
         stage("first step") {
             steps {
                 echo("1 steeeep")
-                bat 'selenium-side-runner Downloads/test_jenkins.side'
+                start cmd.exe
+                #bat 'selenium-side-runner Downloads/test_jenkins.side'
             }
         }
     }
