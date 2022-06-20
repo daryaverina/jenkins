@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage("Second step") {
             steps {
-                selenium-side-runner(C:/Tests/test_jenkins.side)
+                selenium-side-runner 'C:/Tests/test_jenkins.side'
                 echo("2 steeeep")
             }
         }
