@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage("Second step") {
             steps {
-                cd 'C:/'
+                selenium-side-runner 'C:/Tests/test_jenkins.side'
                 echo("2 steeeep")
             }
         }
