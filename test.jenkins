@@ -11,7 +11,7 @@ pipeline {
         stage("First step") {
             steps {
                 cd C:/Tests
-                selenium-side-runner 'test_jenkins.side'
+                selenium-side-runner ('test_jenkins.side')
             }
         }
         stage("Second step") {
